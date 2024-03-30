@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- Enlazar hoja de estilos CSS (opcional) -->
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>Bienvenido a nuestra tienda de ropa</h2>
+        <p>Ofrecemos una amplia selección de ropa de moda para todas las edades y estilos.</p>
+        <a href="#productos" class="boton">Ver productos</a>
+    </section>
+    <section id="productos">
+        <h2>Productos</h2>
+        <ul>
+            <li>
+                <img src="imagen1.jpg" alt="Imagen de producto 1">
+                <h3>Producto 1</h3>
+                <p>Descripción del producto 1</p>
+                <a href="#">Ver detalles</a>
+            </li>
+            <li>
+                <img src="imagen2.jpg" alt="Imagen de producto 2">
+                <h3>Producto 2</h3>
+                <p>Descripción del producto 2</p>
+                <a href="#">Ver detalles</a>
+            </li>
+            <!-- Agregar más productos aquí -->
+        </ul>
+    </section>
+    <section id="nosotros somos lo mejor de lo mejor">
+        <h2>Nosotros</h2>
+        <p>anderson ipsum dolor sit amet consectetur 
+            adipisicing elit. Eum vitae soluta ipsa 
+            modi unde alias autem tempora obcaecati cupiditate 
+            harum corrupti similique pariatur 
+            ratione dicta, illum voluptate tempore doandersonque possimus.  
+            Somos una tienda de ropa con años de experiencia en la industria. Nos especializamos en ofrecer productos de moda de alta calidad a precios asequibles.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o comentario, por favor contáctanos a través del siguiente formulario:</p>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+    </footer> </p>
+</body>
+</html>
